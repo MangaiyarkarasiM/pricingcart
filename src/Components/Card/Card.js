@@ -8,7 +8,6 @@ function Card(props){
                 <div className="text-uppercase text-center">{props.data.pricetype}</div>
                 <div className="text-center"><span className="larger">{props.data.price}</span><small>/month</small></div>
                 <hr></hr>
-                <div>
                     <ul type="none">
                         {props.data.includeslist.map((item,index)=>{
                             return <li key={index}><i className="fa fa-check fa-1x"></i>{item}</li>
@@ -19,7 +18,6 @@ function Card(props){
                             return <li key={index}><i className="fa fa-times fa-1x"></i>{item}</li>
                         })}
                     </ul>
-                </div>
                 <div>
                  <a href="#" className="btn btn-primary text-uppercase">Button</a>
                 </div>

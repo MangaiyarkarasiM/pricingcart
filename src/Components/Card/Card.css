@@ -11,6 +11,7 @@
 .card-wrapper{
     padding: 10px 20px;
     min-height: 450px;
+    min-width: 260px;
 }
 
 .fa{
@@ -38,16 +39,17 @@
 ul,li{
     margin: 0;
     margin-bottom: 10px;
+    margin-left: -10px;
 }
 
 @media (min-width: 992px) {
+    
     .card-wrapper:hover {
-      margin-top: -.25rem;
-      margin-bottom: .25rem;
-      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-    }
-  
-    .card-wrapper:hover .btn {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+      }
+    .card:hover .btn {
       opacity: 1;
     }
   }
