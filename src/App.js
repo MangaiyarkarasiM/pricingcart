@@ -26,7 +26,10 @@ const details=[
 
 function App() {
   return (
+    <div>
+      <h1>Pricing Table</h1>
     <PriceCart data={details}/>
+    </div>
   );
 }
 
